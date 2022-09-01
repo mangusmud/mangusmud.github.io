@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+  <h1>12 - Komutlar</h1>
+  
+  <p>Bu bölümde oyundaki temel komutlar hakkında bilgi bulabilirsiniz.</p>
+  
+  <h2>12.1 Temel Komutlar</h2>
+  
+<p>kuzey: Kuzey yönünde ilerlemeyi sağlayan komut. Kısaca k harfi de yazılabilir.</p>
+<p>güney: Güney yönünde ilerlemeyi sağlayan komut. Kısaca g harfi de yazılabilir.</p>
+<p>doğu: Doğu yönünde ilerlemeyi sağlayan komut. Kısaca d harfi de yazılabilir.</p>
+<p>batı: Batı yönünde ilerlemeyi sağlayan komut. Kısaca b harfi de yazılabilir.</p>
+<p>aşağı: Aşağı yönünde ilerlemeyi sağlayan komut. Kısaca a harfi de yazılabilir.</p>
+<p>yukarı: Yukarı yönünde ilerlemeyi sağlayan komut. Kısaca y harfi de yazılabilir.</p>
+<p>bak: Bulunduğunuz odanın neresi olduğunu öğrenmek için kullanılan komut. Ayrıca odada işaret tabela gibi şeyler varsa(oda tanımlarında belirtilir bu tip şeyler.) bunlara bakmak için de kullanılır. Örnek: bak işaret</p>
+<p>skor: Karaktere ait genel bilgilerin yer aldığı bir tablonun görülmesini sağlayan komut.</p>
+<p>eğitim: Bir eğitim üstadının yanında sadece eğitim yazarak eğitilebilecekler görülebilir. Güç, zeka, bilgelik, çeviklik, bünye, karizma, yaşam puanı ve mana puanı değerlerini arttırmak için eğitimci mobun(eğitim üstadı, şaman bengi gibi) yanında girilen komuttur. Kullanımı eğitim yazdıktan sonra arttırılmak istenen değerin girilmesidir. Örnek: eğitim bün. Bu komutla istenen değerleri arttırabilmek için eğitim seansına ihtiyaç vardır. Eğitim seansları her beş seviyede bir kazanılır. Ya da pratik seansları eğitime dönüştürülebilir.(bknz. kazan eğitim)</p>
+<p>pratik: Bir pratik üstadının yanında sadece pratik yazarak pratik edilebilecekler görülebilir. Kullanımı pratik yazdıktan sonra pratik edilmek istenen büyü yada yetenek isminin girilmesidir. Bunun için pratik seansına sahip olmak gereklidir. Pratik seansları her seviyede gelir. Pratik seansı kazanmak için kazan pratik komutu kullanılabilir.(bknz: kazan pratik)</p>
+<p>kazan eğitim: 10 pratik seansını 1 eğitim seansına dönüştürür. Sadece eğitimci veya pratikçinin yanında kullanılabilir.</p>
+<p>kazan pratik: 1 eğitim seansını 10 pratik seansına dönüştürür. Sadece eğitimci veya pratikçinin yanında kullanılabilir.</p>
+<p>envanter: Karakterin taşıdığı eşyaları gösteren komuttur. Kısaca e harfi de yazılabilir.</p>
+<p>ekipman: Karakterin giydiği ekipmanları gösteren komuttur. Kısaca ek yazılabilir.</p>
+<p>giy: Envanterde bulunan bir ekipmanı giymek için kullanılan komuttur. Giy komutundan sonra giyilecek ekipman adı yazılır. Örnek: giy kılıç . Eğer giy tümü derseniz, envanterdeki bütün ekipmanları giyersiniz.</p>
+<p>çıkar: Giyilmiş bir ekipmanı çıkarmak için kullanılan komuttur. Çıkar komutundan sonra çıkarılacak ekipman adı yazılır. Örnek: çıkar kılıç . Eğer çıkar tümü derseniz, giydiğiniz herşeyi çıkarırsınız.</p>
+<p>al: Karakterin bulunduğu odada yerde bulunan bir nesneyi almak için veya bir taşıyıcıda bulunan bir nesneyi almak için kullanılan komuttur. Bu taşıyıcı bir ceset de olabilir bir çanta da. Yerde bulunan bir şeyi almak için al komutundan sonra alınacak eşyanın adı yazılır. Örnek: al miğfer. Eğer bir taşıyıcıdan bir eşya almak istiyorsak komutun sonunda taşıyıcının da ismini belirtmeliyiz. Örneğin bir canavar öldürdük ve bu canavarın cesedinde bir bot var. Girilecek komut: al bot ceset. Ya da envanterde taşıdığımız bir çantanın içinde bir matara var. Girilecek komut al matara çanta. Eğer al tümü çanta veya al tümü ceset derseniz, taşıyıcıdaki herşeyi alırsınız.</p>
+<p>koy: Bir eşyayı taşıyıcıya koymak için kullanılan komuttur. Koy komutundan sonra koyulacak eşyanın adı, son olarak da taşıyıcının adı yazılır. Örneğin çantamızın içine bir matara koymak istiyoruz. Girilecek komut: koy matara çanta. Eğer koy tümü çanta derseniz envanterdeki herşeyi çantaya koyarsınız.</p>
+<p>incele: Bir eşyayı ayrıntılı olarak incelemek için kullanılan komuttur. Taşıyıcıların içeriğini görmek için de kullanılır. Örnek: incele çanta</p>
+<p>bırak: envanterde bulunan bir eşyayı yere bırakmak için kullanılan komuttur. Örnek: bırak kemer . Eğer bırak tümü derseniz, envanterinizdeki herşeyi yere bırakırsınız.</p>
+<p>çıkış: Bulunduğunuz odanın çıkışlarını gösteren komuttur. Hangi yönlerde hangi odalar var bu komutla görebilirsiniz.</p>
+<p>tart: Bu komutla düşmanınızın sizin seviyenize göre güçlü mü zayıf mı olduğunu öğrenebilirsiniz. Örnek: tart canavar. Tarttığınızda "Mükemmel eşleşme" diyorsa düşmanınız sizinle aynı seviyededir.</p>
+<p>kurban: yerde bulunan şeyleri Tanrı'ya kurban etme komutudur. Örnek: kurban ceset . Kurban ederek akçe kazanabilirsiniz.</p>
+<p>saldır: Bir düşmana saldırma komutudur. Saldırmak için hedef belirtmek gereklidir. Örnek saldır canavar</p>
+<p>kaç: Dövüşten kaçmayı sağlayan komuttur.</p>
+<p>anımsa: Seçilen dinin tapınağına geri dönüşü sağlayan komuttur. Dinsizler Şaman Benginin yanına döner.</p>
+<p>korkaklık: Belli bir yaşam puanının altına düştüğünde karakterin otomatik olarak kaçmasını sağlayan komuttur. Korkak yazdıktan sonra kaçılması istenen yaşam puanı değeri yazılır. Örnek: korkak 50</p>
+<p>uyu: Uyumayı sağlayan komuttur. Karakter daha hızlı iyileşir.(özellikle kendi dininin tapınağında)</p>
+<p>kalk: Uyuyan veya oturan karakterin ayağa kalkmasını sağlayan komuttur.</p>
+<p>uyan: Uyurken kalkmayı ya da uyuyan birini kaldırmayı sağlayan komuttur. Örnek: uyan maru</p>
+<p>otur: Oturmayı sağlayan komuttur.</p>
+<p>dinlen: Uyumadan dinlenmeyi sağlayan komuttur.</p>
+<p>ye: Envanterde bulunan bir yiyeceği yemek için kullanılan komuttur. Örnek: ye turta</p>
+<p>iç: Envanterde bulunan bir su taşıyıcısından veya odada bulunan bir su kaynağından(çeşme, pınar vs.) içme komutudur. Örnek: iç matara veya iç çeşme</p>
+<p>doldur: Bir kaynaktan su taşıyıcısına su doldurma komutudur. Bu komutun kullanılabilmesi için odada bir su kaynağı envanterde ise bir su taşıyıcısı olmalıdır. Örnek: doldur matara</p>
+<p>yudumla: İksirleri yudumlamak için kullanılan komuttur. Mesela anımsama iksirini yudumlamak istiyorsak: yudumla anımsama</p>
+<p>etki: Karakterinizin o anda etkisi altında olduğu büyüleri görmenizi sağlayan komuttur.</p>
+<p>kim: Oyunda o anda çevrimiçi olan oyuncuları gösteren komuttur.</p>
+<p>günce: Sahip olduğunuz akçe miktarını, toplam tecrübe puanınızı, sonraki seviye için gerekli olan tecrübe puanını, öldürdüğünüz mobların(oyun tarafından yönlendirilen yaratıkların) sayısını ve son 14 gün içinde kaç saat kaç dakika oyuna bağlı kaldığınızı gösteren komuttur.</p>
+<p>kaydet: Karakteri kaydetmek için kullanılır. Otomatik kayıt vardır.</p>
+<p>nerede: Bulunduğunuz bölgedeki oyuncuların hangi odada olduklarını gösteren komuttur. Ayrıca hedef belirterek de kullanılabilir. Hedef belirtilirse moblar da bulunabilir. Örnek: nerede canavar</p>
+<p>katlet: Oyunculara saldırmak için kullanılan komuttur. Hedef belirtilmesi gereklidir. Örnek: katlet maru</p>
+<p>liste: Satıcıların bulunduğu yerlerde satılan şeylerin listesini görmek için kullanılan komuttur.</p>
+<p>alış: Satıcıların bulunduğu yerlerde bir şey satın almak için kullanılan komut. Alış komutunu yazdıktan sonra satın alınacak eşyanın adı yazılır. Örnek: alış matara</p>
+<p>satış: Satıcıların bulunduğu yerlerde bir şey satmak için kullanılan komut. Satış komutundan sonra satılacak eşyanın adı yazılır. Örnek: satış zırh</p>
+<p>değer: Bir eşyayı satmadan önce satıcının ona ne kadar değer biçeceğini öğrenmek için kullanılan komuttur. Değer yazdıktan sonra değerini öğrenmek istediğiniz eşyanın adını yazın. Örnek: değer kılıç</p>
+<p>aç: Kapalı kapıları açmak için kullanılan komuttur. Aç komutundan sonra açılacak kapının hangi yönde olduğu veya açılacak şeyin adı yazılır. Örnek: aç doğu veya aç kapı</p>
+<p>kilitaç: Kilitli kapıları açmak için kullanılan komuttur. Bu komutla kilidi açabilmek için envanterde veya yerde o kapının anahtarı bulunmalıdır. Kilitaç komutundan sonra kilitli kapının bulunduğu yön veya açılacak şeyin adı yazılır. Örnek: kilitaç doğu veya kilitaç kapı</p>
+<p>kapat: Kapıları kapatmak için kullanılan komuttur.</p>
+<p>tara: Karakterin bulunduğu noktanın çevresinde hangi yönde hangi mob veya oyuncunun olduğunu gösteren komuttur. Tara komutundan sonra bir yön girilirse o yöndeki odaları tarar. Örnek: tara kuzey</p>
+<p>takip: Bir oyuncuyu takip etmek için kullanılan komuttur. Örnek: takip maru . Takip komutu girildikten sonra takip edilen kişi nereye giderse takip eden onu izler. Takip etmeyi bırakmak için takip kapat komutu girilir.</p>
+<p>grup: Seviyesi yakın başka oyuncularla grup yapmak için kullanılan komuttur. Grup yaparak bir düşmana karşı birkaç kişi saldırılabilir. Gruptaki herkes tecrübe puanı alır. Grup yapabilmek için ilk önce 1.oyuncunun 2.yi yani lideri takip etmesi gereklidir. Daha sonra 2. oyuncu yani lider takip yazdıktan sonra grubuna almak istediği 1.oyuncunun adını yazar. Örnek: Jai lider olmak istiyor. Maru ise onu takip edecek. Maru takip jai yazar ve jaiyi takip eder, jai ise grup maru yazar ve maruyu grubuna alır.</p>
+<p>acıbana: İlk seviyelerde kaybedilen basit kalitesiz ekipmanları Tanrı'dan dileyerek sahip olma komutudur.</p>
+<p>ipucu: İpucu kanalını açıp kapatmak için kullanılan komuttur. ipucu aç diyerek açabilir, ipucu kapat diyerek kapatabilirsiniz.</p>
+<p>bölge: Diyarda bulunan bölgeler ve gidiş yollarını gösteren komuttur.</p>
+<p>büyüler: Karakterin sahip olduğu ve olacağı büyüleri gösteren komuttur.</p>
+<p>yetenekler: Karakterin sahip olduğu ve olacağı yetenekleri gösteren komuttur.</p>
+<p>zaman: O anki zamanı görmeyi sağlayan komuttur.</p>
+<p>! : Bir önceki komutun aynısını girmeyi sağlayan komuttur.</p>
+<p>, : Söyle komutu yerine kullanılabilen bir komuttur.</p>
+<p>ayrıl: Oyundan ayrılmayı sağlayan komuttur.</p>
+<p>intihar: Karakteri silmek için kullanılan komuttur. İki kez üst üste girilmelidir.</p>
+
+  <h2>12.2 Oto Komutları</h2>
+  
+<p>Bu komutlar karakterin otomatik olarak yaptığı eylemleri açıp kapatmak içindir. Oto yazılarak otomatik komutların listesi ve açık-kapalı durumları görülebilir. Açıp kapama işlemi için sadece komut adının yazılması yeterlidir.</p>
+<p>otodestek: Grup arkadaşlarına savaş esnasında otomatik olarak destek vermeyi sağlayan komuttur.</p>
+<p>otoçıkış: Oda tanımlarında çıkışların otomatik olarak gözükmesini sağlayan komuttur.</p>
+<p>otoakçe: Öldürülen kurbanın cesedinden otomatik olarak akçeleri almayı sağlayan komuttur.</p>
+<p>otoyağma: Öldürülen kurbanın cesedinden bütün ekipmanları otomatik olarak almayı sağlayan komuttur.</p>
+<p>otokurban: Öldürülen kurbanın cesedini otomatik olarak kurban etme komutudur.</p>
+<p>otodağıt: Herhangi bir şekilde bir yerden akçe alındığında akçeleri otomatik olarak grup arkadaşlarına paylaştırmayı sağlayan komuttur.</p>
+<p>takip: Herhangi biri tarafından takip edilmek istenmiyorsanız, takip kapat yazarak takibi kapatabilirsiniz. Takip aç yazarak da takibe izin verebilirsiniz.</p>
+<p>suflör: yaşam puanı, mana puanı, hareket puanı, kalan tp gibi değerlerin yazılı olduğu ve her entera basıldığında çıkan suflör satırının açılıp kapatılmasını sağlayan komuttur.</p>
+<p>bileşik: envanterdeki birden fazla sayıdaki aynı isimli ekipmanın ayrık veya bileşik görünmesini sağlayan komuttur. Bileşik açık olursa envanterde şöyle görünür: (3) elma. Ama bileşik kapalı olursa envanter listesinde alt alta 3 tane elma yazar.</p>
+<p>çağrı: Bu komutla durumunuzu "herkesin çağrı büyüsüne açık" veya "sadece ok aralığındakilerin çağrı büyüsüne açık" olarak değiştirebilirsiniz.</p>
+<p>iptal: Bu komutla başkalarının iptal büyülerini kabul edebilir veya reddedebilirsiniz.</p>
+
+  <h2>12.3 Görevci, Dilekçi ve Tefeci Komutları</h2>
+  
+  <h3>12.3.1. Görevci Komutları</h3>
+  
+<p>Bu komutlar sadece görevci Hassan'ın yanında kullanılabilir. Ayrıntılı bilgi için Nasıl Görev Yaparım? başlığını inceleyebilirsiniz.</p>
+<p>görev iste: Görevciden görev isteme komutudur.</p>
+<p>görev bitti: Görevciye görevin bittiğini haber verme komutudur.</p>
+<p>görev puan: Sahip olduğunuz görev puanını öğrenme komutudur. Skor tablosundan da bakılabilir.</p>
+<p>görev bilgi: Alınan görevin ne olduğunu tekrar öğrenmek için kullanılan komuttur.</p>
+<p>görev zaman: Görevi bitimine ne kadar süre kaldığını öğrenmek için kullanılan komuttur.</p>
+<p>görev liste: Görev ekipmanlarının listesini görmek için kullanılan komuttur.</p>
+<p>görev alış: İstenilen görev puanı ve akçeyi biriktirdikten sonra görev ekipmanı almak için kullanılan komuttur. görev alış yazdıktan sonra istenilen görev eşyasının adı yazılır. Örnek: görev alış kızılçanta</p>
+<p>görev iade: Daha önceden alınmış bir görev eşyasını Hassan'a iade ederek görev puanlarının bir kısmını geri almak için kullanılan komuttur. Örnek: görev iade maviçanta</p>
+<p>görev özellik: Görev eşyalarının hangi özelliklere sahip olduğunu öğrenmek için kullanılan komuttur. görev özellik yazdıktan sonra özelliği öğrenilmek istenen eşyanın adı yazılır. Örnek: görev özellik mavisilah</p>
+<p>görev sigorta: Bir görev eşyasına sahip olduktan sonra kaybedildiyse, görev eşyası gp ve akçe harcamadan bu komutla görevciden tekrar istenebilir. Örnek: görev sigorta mavikolan</p>
+<p>eniyi: Vücudun belli bölgeleri için en iyi ekipmanları öğrenmek için kullanılan komuttur. Örnek: eniyi gövde</p>
+
+  <h3>12.3.2. Dilekçi Komutları</h3>
+  
+<p>Bu komutlar sadece dilekçi Hüssam'ın yanında kullanılabilir. Ayrıntılı bilgi için Dilek Kuyusunu Nasıl Kullanırım? başlığını inceleyebilirsiniz.</p>
+<p>dilek liste: Dilek taşlarının listesini görmek için kullanılan komuttur.</p>
+<p>dilek özellik: Dilek taşlarının özelliklerini gösteren komuttur. dilek özellik dedikten sonra özellikleri öğrenilmek istenen dilek taşının adı yazılır. Örnek: dilek özellik görev</p>
+<p>dilek alış: Dilekçi Hüssamdan istenilen dilek taşını yontarak kuyuya atmasını istemek için kullanılan komuttur. dilek alış yazdıktan sonra istenilen dilek taşının adı yazılır. Örnek: dilek alış tecrübe</p>
+
+  <h3>12.3.3. Tefeci Komutları</h3>
+  
+<p>Bu komutlar sadece tefecinin yanında kullanılabilir. Ayrıntılı bilgi için Banka Nasıl Kullanılır? ve Emanet Kasaları Nasıl Kullanılır? başlıklarını inceleyebilirsiniz.</p>
+<p>bakiye: Bankada bulunan para miktarını öğrenmek için kullanılan komuttur.</p>
+<p>parayatır: Bankaya para yatırmak için kullanılan komuttur. parayatır yazdıktan sonra yatırılacak miktar yazılır. Örnek: parayatır 1000</p>
+<p>paraçek: Bankadan para çekmek için kullanılan komuttur. paraçek yazdıktan sonra çekilecek miktar yazılır. Örnek: paraçek 1000</p>
+<p>tanımla: Bir eşyayı belli bir ücret karşılığında tanımlatma komutudur. Örnek: tanımla kılıç</p>
+
+  <h2>12.4 Kabal Komutları</h2>
+  
+  <h3>12.4.1. Tüze Kabalı Komutları</h3>
+  
+<p>Tüze Aylası: Tüze kabalı üyelerinin koruyucu bir aura oluşturmak için kullandıkları büyü.(büyü tüze)</p>
+<p>Hüküm Kılıcı: Tüze kabalı üyelerinin kullandıkları kılıcı yaratmak için kullandıkları büyü.(büyü hüküm hedef_adı)</p>
+<p>Aranıyor: Tüze kabalı üyelerinin kullanımına sunulan bir komuttur. Muhafızların suçlulara saldırmasını sağlarlar. (aranıyor karakter_adı e, iptal etmek için: aranıyor karakter_adı h)
+<p>Yargılama: Tüze kabalı üyesinin kurbanı yargılayarak yönelimini ve etiğini
+<p>öğrenmesini sağlayan sorgulama yeteneğidir. (yargıla karakter_adı)
+<p>Kelepçe: Tüze kabalı üyesinin kurbanının çevikliğini, zarar zarını ve vuruş zarını azaltmasını ve teshir altına almasını sağlar. (büyü kelepçe karakter_adı)
+<p>Tüze Kalkanı: Tüze kabalı üyesinin koruyucu bir kalkan oluşturmak için kullandığı büyüdür. (büyü 'tüze kalkanı')
+<p>Muhafız Çağrısı: Tüze kabalı üyesinin muhafızları yardımına çağırmak için kullandığı büyüdür. (büyü muhafız)
+<p>Tüze Nişanı: Tüze kabal üyesinin önemli güçler veren bir nişan oluşturmak için kullandıkları büyüdür.(büyü 'tüze nişanı')
+<p>Nişan Kaldır: Tüze kabalı üyesinin yaratılmış nişanları yoketmek için kullandığı büyüdür. (büyü nişan)
+
+  <h3>12.4.2. Kaos Kabalı Komutları</h3>
+  
+<p>Gözden Düşür: Kurbanın karizmasını düşürmek için kullanılır. (büyü 'gözden düşür' hedef_adı)
+<p>Kaos Aurası: Kaos kabalı üyelerinin kendilerini koruyacak bir aura oluşturmak için kullandıkları büyüdür.  (büyü kaos)
+<p>İkna: Kurbanı hipnotize ederek etki altına almayı sağlayan büyüdür. (büyü ikna hedef_adı)
+<p>Afoni: Kaos kabalı üyelerinin kurbanın konuşmalarında dil sürçmesi yaşaması için kullandıkları büyüdür. Özellikle büyücülerin büyü yapmasını
+<p>engellemek için kullanılabilir. (büyü afoni hedef_adı)
+<p>Ayna: Kaos kabalı üyelerinin kendilerine benzeyen yansımalarını oluşturmak
+<p>için kullandıkları büyü. (büyü ayna hedef_adı)
+<p>Şaşırtma: Kurbanı şaşırtmak ve şaşıran kurbanın oraya buraya saldırmasını sağlamak için Kaos kabalı üyelerinin kullandığı büyü. (büyü şaşırtma hedef_adı)
+<p>Yatağan: Kaos kabalı üyelerinin kullandığı 'Yatağan' isimli hançeri yaratmak için kullandıkları büyüdür. (büyü yatağan) 
+<p>Rasgele: Kaos kabalı üyelerinin bulundukları odanın çıkışlarını karıştırmak için kullandıkları büyüdür. (büyü rasgele)
+<p>Dağıtma: Odada bulunanları diyarın değişik yerlerine dağıtmak için kullanılır. (büyü dağıtma)
+<p>Dönüşüm: Kaos kabalı üyesinin başka birine benzemek için kulandığı büyü. (büyü dönüşüm hedef_adı)
+
+  <h3>12.4.3. Şövalye Kabalı Komutları</h3>
+  
+<p>Savun: Şövalye kabalı üyeleri yakınlarındaki birini savunmak için bu komutu kullanılır. (savun hedef_adı)
+<p>Cesaret: Şövalye kabalı üyesinin gücünü ve zarar zarını artırmak için kullandığı büyüdür. (büyü cesaret)
+<p>Altın ayla: Şövalye kabalı üyesinin koruyucu bir altın aura oluşturmak için kullandığı büyüdür. (büyü altın)
+<p>Ejderha zırhı: Ejderha derisinden bir zırh yaratır. (büyü ejderha) 
+<p>Bey: İki güçlü bey'i yardıma çağırmak için kullanılır. (büyü bey)
+<p>Ejderha kılıcı: Ejderha dişinden bir silah yapmak için kullanılır. (büyü 'ejderha kılıcı' kılıç/topuz/kama/kargı)
+<p>Kutsal zırh: Zarardan korunmak için vücudu saran büyülü kutsal bir zırh yaratır. (büyü 'kutsal zırh') 
+<p>Binicilik: Binicilik yapabilmek için kullanılan yetenek. (otomatik)
+
+  <h3>12.4.4. İstila Kabalı Komutları</h3>
+  
+<p>Kem ruh: Odayı kem ruhların gazabıyla doldurmak için kullanılır. (büyü 'kem ruh')
+<p>Solucan: Saldırgan bir solucan çağırmak için kullanılan büyüdür. (büyü solucan)
+<p>Entrika: İstila kabalı üyesinin bir an için kurbanın bulunduğu odayı görmesini sağlayan büyüdür. (büyü entrika hedef_adı)
+<p>Soluş: İstila kabalı üyelerinin ortalardan kaybolmak için kullandıkları yöntemdir. (soluş)
+<p>Gölge Pelerini: İstila kabalı üyesinin bir gölge pelerinine sarınmasını sağlayan büyüdür. (büyü 'gölge pelerini')
+<p>Alacakaranlık: İstila kabalı üyelerinin bulundukları odayı karanlığa gömmek için kullandıkları büyüdür. (büyü alacakaranlık)
+<p>Gölgeyaşam: İstila kabalı üyesinin gölgeye yaşam vererek kurbana saldırtmak için kullandığı büyüdür. (büyü gölgeyaşam hedef_adı)
+
+  <h3>12.4.5. Tılsım Kabalı Komutları</h3>
+  
+<p>Dönüşüm: Tılsım kabalı üyelerinin yaşam puanlarını 2 katına çıkarmak için kullandıkları büyü. (büyü dönüşüm)
+<p>Zihin bıçağı: Tılsım kabalı üyelerinin kurbanın zekasını geçici olarak düşürmek için kullandıkları büyüdür. (büyü 'zihin bıçağı' hedef_adı)
+<p>İblis çağrısı: Tılsım kabalı üyesinin iblisleri yardımına çağırmak için kullandığı büyüdür.(büyü 'iblis çağrısı')
+<p>Ceza kırbacı: Tılsım kabalı üyesi bu büyü ile odada bulunanlara zarar verir, onları kör eder, zehirler ve zayıflatır. (büyü 'ceza kırbacı' hedef_adı)
+<p>Öte boyut: Tılsım kabalı üyelerinin kendilerini ve grubundakileri belirtilen hedefin bulunduğu odaya transfer etmek için kullandıkları büyüdür. (büyü 'öte boyut' hedef_adı)
+<p>Mayacı: Tılsım kabalı üyelerinin iksir oluşturmak için kullandıkları büyüdür. Genelikle gül ile iksir oluşturulur. (büyü mayacı eşya_adı)
+<p>Büyü ustalığı: Kullanılan büyülerin daha az mana götürmesini sağlayan yetenek. (otomatik)
+
+  <h3>12.4.6. Öfke Kabalı Komutları</h3>
+  
+<p>Ölümcül Atak: Ölümcül vuruşlar yapabilmeyi sağlayan yetenek.(otomatik)
+<p>Sargı: Öfke kabalı üyelerinin tedavi maksadıyla yaralarına bandaj sarmalarını sağlar. (sargı)
+<p>Kabal Anımsa: Öfke kabalı üyesinin bulunduğu yerden kabal binasına transfer olabilmek için kullandığı yetenektir.
+<p>Kana Susama: Öfke kabal üyelerinin dövüşe konsantre olmak için kullandıkları yetenektir. Saldırganlığı artırır. (kanasusama)
+<p>Büyü Yıkımı: Öfke kabalı üyelerinin kullanımına açıktır. Kişiye büyülere karşı
+<p>koruma sağlar. (büyüyıkımı)
+<p>Direnç: Öfke kabalı üyelerinin kullanımına açıktır. Kasların gerilmesini
+<p>sağlayarak darbelere karşı dayanımı artırır. (direnç)
+<p>Ölüm Rüzgarı: Öfke kabalı üyesinin rakibine doğru öldürücü bir rüzgar estirebilmek için kullandığı yetenek. (otomatik)
+<p>Andaç: Ölmüş vücudun bir parçasından hatıralık eşya yapması sağlayan komuttur. (andaç vücut_parçasının_adı)
+<p>Keskin Görüş: Öfke kabalı üyeleri gözlerini keskinleştirmek için kullanır.
+<p>Bu sayede kullanan kişi gizlenen, görünmeyen, büyülü vs. kişileri/nesneleri görebilir. (keskingörüş)
+
+  <h3>12.4.7. Avcı Kabalı Komutları</h3>
+  
+<p>Avlama: Avcı kabalı üyelerinin kullanımına sunulmuş bir komuttur. Kurbanın izini takip etmeyi ve ona giden bir yol bulmayı sağlar. 
+<p>Nesne Ara: Bir eşyanın diyarın neresinde bulunduğunu bulmaya yarar. 
+<p>Yol bulma: 
+<p>Kurt: Yardım için bir kurt çağırır.
+<p>Kurt ruhu: Kişiyi bir kurt kadar çevik, güçlü yaparken gözlerini ısıya karşı hassaslaştırarak karanlıkta da görmesini sağlar. 
+<p>Zırh kullanımı: Dövüş sırasında giyilen zırhtan daha fazla verim almayı sağlayan yetenek. 
+<p>Diyar bulma: Avcı kabalının kurbanının izini bulmak için kullandığı yeteneklerdendir. 
+<p>İntikam: Yenice ölmüş kişinin ruhunu cesedinin yanına gönderir.
+
+  <h3<12.4.8. Aslan Kabalı Komutları</h3>
+  
+<p>Muhafız köpekler: Aslan kabalı üyelerinin yardıma muhafız köpekleri çağırmak için kullandıkları büyüdür.
+<p>Aslan gözleri: Aslan kabalı üyelerinin avcı kabalı üyelerini tanıyabilmelerini sağlayan büyüdür.
+<p>Aslan kalkanı: Aslan kabalı üyelerinin kendilerini koruyan bir kalkan yaratmalarını sağlar.
+<p>Aslana dönüşme: Aslan kabalı üyelerinin aslana dönüşmek için kullandıkları büyüdür.
+<p>Pençe: Aslan kabalının güçlü bir saldırı özelliği. 
+<p>İntikam bağı: Aslan kabalı üyesinin Avcı kabalı üyelerinin intikam almasını engellemek adına kullandıkları büyüdür.
+
+  <h2>12.5 Sosyal Komutlar</h2>
+  
+<p>Oyuncuların diğer oyuncularla kuracakları iletişime renk katması için kullanabilecekleri komutlardır. Bu komutlar ya tek başlarına, ya da bir hedef belirtilerek kullanılır. Örneğin,
+<p>gülümse 
+<p>yazıldığında odada bulunanlar komutu kullanan kişinin gülümsediğiyle ilgili bir mesaj alırlar. Komut hedef belirtilerek de kullanılabilir:
+<p>gülümse jai
+<p>bu durumda odadakiler komutu kullanan kişinin Jai'ye gülümsediğiyle ilgili mesaj alırlar. Jai ise birinin kendisine gülümsendiğiyle ilgili bilgilendirilir.
+<p>Uzak Diyarlar'daki sosyal komutlar ve komut girildiğinde odadakilerin gördüğü mesajlar aşağıda listelenmiştir. Deneme karakteri olarak Maru ismi kullanılmıştır.
+<p>ağla: Maru gözyaşlarına boğuluyor.
+<p>alay: Maru alaycı bir kahkaha atıyor.
+<p>ampul: Maru'nun kafasının üzerinde yanıp sönen bir ampul görünüyor.
+<p>aptal: Maru etrafta aptal aptal geziniyor... Gerçekten aptalca.
+<p>aşk: Maru dünyadaki herkesi nasıl sevdiğini anlatıyor.
+<p>bekle: Maru sabırla bekliyor.
+<p>dans: Maru önünde vahşice dans ediyor!
+<p>dikkat: Maru dikkatle etrafına bakınıyor.
+<p>dilen: Tanrılar Maru'nun af dilenişine gülüyorlar.
+<p>eğil: Maru saygıyla eğiliyor.
+<p>elsalla: Maru neşeli bir şekilde el sallıyor.
+<p>esne: Maru esniyor.
+<p>gül: Maru sana güzel bir gül veriyor...
+<p>gülümse: Maru neşeyle gülümsüyor.
+<p>homurdan: Maru homurdanıp hırıldıyor. Neyin yanlış gittiğini merak ediyorsun...
+<p>kahkaha: Maru yerlere yatarak kahkaha atıyor.
+<p>katıl: Maru tamamen katılıyor.
+<p>kıkırda: Maru kafasını arkaya atıp çılgınca bir neşeyle kıkırdıyor!
+<p>lag: Maru çok   y a v a ş   h a r e k e t   e d i y o r...
+<p>masaj: Maru omuzlarına yumuşak bir masaj yapıyor- Ahhhhhhhhhh...
+<p>merak: Maru'nun gözlerinde meraklı bir ifade beliriyor.
+<p>miyav: Maru miyavlıyor.
+<p>onay: Maru onaylayarak başını sallıyor.
+<p>ovuştur: Maru açgözlü bir bekleyişle ellerini ovuşturuyor.
+<p>öp: Maru seni öpüyor.
+<p>özür: Maru yüzsüzce özür diliyor.
+<p>reverans: Maru göze hoş görünen bir reverans yapıyor.
+<p>sarıl: Maru sımsıkı doladığı kollarıyla seni sevgiyle kucaklıyor.
+<p>selam: Maru etraftakileri selamlıyor.
+<p>sessizlik: Maru herkesi sessizliğe davet ediyor.  Şşşşhhhhhhhhhhh...
+<p>sırıt: Maru pis pis sırıtıyor.
+<p>sinirlen: Maru çok sinirleniyor.
+<p>somurt: Maru köşeye geçmiş somurtuyor.
+<p>şarkı: HEY RAHİPLER! BİR İYİLEŞTİRME BÜYÜSÜ BANA İYİ GELİRDİ!  Maru, şarkı söylemeye başladı bile.
+<p>teşekkür: Maru sana teşekkür ediyor.
+<p>tırmala: Maru sivri tırnaklarıyla seni tırmalıyor.
+<p>titre: Maru titriyor.
+<p>tokatla: Maru seni sızlatarak tokatlıyor.
+<p>utan: Maru utancından tam bir domatese dönüşüyor.
+<p>zıpla: Maru küçük bir çocuk gibi zıplıyor.
+  
+  <h2>12.6 Diğer Komutlar</h2>
+  
+<p>mezat:
+<p>Envanterde bulunan eşyayı açık arttırmaya çıkarma komutudur. Açık artırmaya çıkarmak için: mezat eşya_ismi açılış_fiyatı (örnek: mezat kılıç 18) Eşya ismi için ayırt edici bir isim kullanılmaya çalışılmalıdır. Açılış fiyatı ise açık artırmanın başlangıç fiyatıdır. Artırmaya katılanlar bu fiyatın altında teklif veremezler. Bir açılış fiyatı belirtilmezse açılış 0 altınla yapılır. Mezatta alıcı bulamayan eşya mezatçıda kalır. Açık artırmadaki eşya hakkında bilgi almak için mezat komutu girilir. Açık artırmadaki eşyaya teklif vermek için: mezat teklif fiyat (örnek: mezat teklif 23) Verilen teklif açılış fiyatından ve son verilen tekliften az olmamalıdır. Şu tip eşyalar mezata sürülemez: harita, iksir... Mezatlar mud yöneticileri tarafından durdurulabilir.
+<p>odaetki:
+<p>Bulunduğunuz odada etkili büyüleri görmeyi sağlar.
+<p>parola:
+<p>Parola değiştirme komutudur. parola yazdıktan sonra önce eski şifre sonra yeni şifre girilir. Örnek: parola 12345 54321
+<p>rapor:
+<p>Karakterin kendi istatistiklerini odaya duyurma komutudur.
+<p>rica:
+<p>Bir mobdan bir ekipmanı rica ederek isteme komutudur. Örnek: rica piyon eldiven
+<p>sürükle:
+<p>Cesedi belli bir yönde sürüklemeyi sağlayan komuttur. Örnek: sürükle ceset doğu
+<p>tamir:
+<p>zırhçı veya silahçılarda bir ekipmanı tamir ettirme komutudur. Örnek: tamir zırh
+<p>kısayol:
+<p>Belli komutlara kısayol atamak için kullanılır. Ayrıntılı bilgi için burayı inceleyin.
+<p>kısayolkaldır:
+<p>kısayolu kaldıran komuttur. Örnek: kısayolkaldır 3
+<p>vur:
+<p>Ok atmak için kullanılan komuttur. Örnek: vur batı canavar
+<p>çarp:
+<p>Ele giyilen büyülü değneklerdeki büyüyü ortaya çıkarmak için kullanılan komuttur. çarp yazdıktan sonra hedef adı yazılır. Örnek: çarp canavar
+<p>savur:
+<p>Ele giyilen büyülü nesnelerin savurularak büyülerinin ortaya çıkarılmasını sağlayan komuttur. Örnek: savur asa
+<p>dök:
+<p>kaynak su taşıyıcısından hedef su taşıyıcısına sıvı aktarımı yapmayı sağlayan komuttur. Örnek: dök matara testi
+<p>kıyasla:
+<p>İki ekipmanı kıyaslamak için kullanılan komuttur. kıyasla dedikten sonra envanterdeki ekipman adı yazılırsa, giyilen ekipmanla kıyaslar. kıyasla dedikten sonra iki ekipmanın adı yan yana yazılırsa, yazılan iki ekipmanı kıyaslar.
+<p>hava:
+<p>Havanın durumunu görmeyi sağlayan komuttur.
+<p>duygu:
+<p>Karakterin mimiklerini odadakilere daha ayrıntılı bir şekilde aktarabilmeyi sağlayan komuttur. Örnek: duygu kafasını kaşıyıp, merakla bakıyor. Bu komut girildikten sonra mesela bunu yazan karakter Maru ise odadaki herkes bunu "Maru kafasını kaşıyıp, merakla bakıyor." olarak görür.
+<p>tanım:
+<p>Biri karakterinize baktığında göreceği tanımı bu komutla yazabilirsiniz. Örnek: tanım Sakalları kalın örgülerle örülmüş uzun kızıl saçlı bir cüce görüyorsun. Bu komut girildikten sonra karakterinize bakan herkes bu yazdığınız tanımı görür. Tanım + veya tanım – komutlarıyla tanımınıza yeni cümleler ekleyip çıkarabilirsiniz.
+<p>lakap:
+<p>Karakterin kim listesinde görülen lakabını belirlemek için kullanılan komuttur.
+<p>lisan:
+<p>Karakterin söyle komutuyla kullandığı lisanı belirleyen komuttur.
+<p>emret:
+<p>etkilenmiş takipçilerinize (evcil hayvanlar gibi) emirlerinizi yaptırmak için kullanılan komuttur. emret yazdıktan sonra hedef adı daha sonra da yaptırılacak eylem yazılır. Örnek: emret kurt otur
+<p>familya:
+<p>Karakterin ırkları tanıma yüzdelerini verir.
+<p>istatistik:
+<p>Oyun hakkında bazı istatiksel değerleri görmeyi sağlayan komuttur.
+<p>görün:
+<p>Görünmezliği bozarak görünür hale gelmeyi sağlayan komuttur.
+
+</body>
+</html>
